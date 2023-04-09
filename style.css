@@ -1,0 +1,101 @@
+    :root {
+        --cor-principal: #18122B;
+        --cor-secundaria: #fff;
+        --cor-terciaria: #443C68;
+        --cor-header: #635985
+    }
+
+    body {
+        font-family: Roboto, sans-serif;
+    }
+
+.navbar {
+    background-color: var(--cor-header)
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos-da-loja .nav-link.active:hover {
+    color: var(--cor-secundaria);
+}
+
+.navbar-toggler {
+    background-color: var(--cor-terciaria);
+}
+
+.section-title {
+    font-family: 'Rubik Moonrocks', cursive;
+}
+
+#produtos-da-loja,
+#produtos-da-loja h5 p,
+#produtos-da-loja h5 {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+}
+
+.carousel-item h5 {
+    font-weight: bold;
+    color: #A31ACB;
+    text-shadow: 3px 0px 3px white
+}
+
+.citacao {
+    color: #E90064;
+}
+
+.text-colored {
+    color: var(--cor-principal);
+}
+
+.nav-produtos-da-loja .nav-link.active,
+#fale-conosco button {
+    background-color: var(--cor-principal);
+    color: var(--cor-secundaria);
+}
+
+#sobre,
+#fale-conosco {
+    background-color: #37306B;
+    color: var(--cor-secundaria);
+}
+
+#sobre,
+#fale-conosco h3,
+#fale-conosco .form-label {
+    color: var(--cor-secundaria);
+}
+
+.nav-produtos-da-loja .nav-link:hover {
+    color: var(--cor-principal);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.instagram {
+    color: var(--cor-secundaria);
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
